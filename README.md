@@ -1,5 +1,6 @@
 # Katalon server project
 This is a small Spring Boot server which purpose is to run Katalon tests.
+[![Build Status](https://travis-ci.com/EUSurvey/KatalonServer.svg?branch=master)](https://travis-ci.com/EUSurvey/KatalonServer)
 
 ## Installation requirements
 1. Katalon
@@ -14,6 +15,6 @@ This is a small Spring Boot server which purpose is to run Katalon tests.
 ## Usage
 1. Call http://{yourDeploymentIP}:{yourDeploymentPort}/katalon/status, to see if the server is up and running;
 1. Call http://{yourDeploymentIP}:{yourDeploymentPort}/katalon/start/{nameOfATestSuite}/{browserName}, to run a test suite, the server will answer with the test suite's JUnit report in XML. The browser name can be IE, Chrome, Edge, Firefox.
-1. Call http://{yourDeploymentIP}:{yourDeploymentPort}/katalon/stop, to stop the Katalon running process and all its children process.
+1. Call http://{yourDeploymentIP}:{yourDeploymentPort}/katalon/stop, to kill all the Katalon running processes (including children processes) initialy created using the application server.
 
 
