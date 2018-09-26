@@ -53,7 +53,7 @@ public class SingleController {
   @Value("${katalon.reports.root.directory.location}")
   private String katalonReportsRootDirectoryLocation;
 
-  private static String status = "<p> Nothing ran yet</p>";
+  private static String status = "Nothing ran yet";
 
   @RequestMapping(value = "/start/{testSuite}/{browser}", method = RequestMethod.GET)
   public String answer(@PathVariable String testSuite, @PathVariable String browser) {
