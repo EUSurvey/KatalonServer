@@ -4,3 +4,12 @@ jdk: oraclejdk10
 
 before_install:
   - chmod +x mvnw
+
+# SONAR ANALYSIS
+addons:
+  sonarcloud:
+    organization: "eusurvey" # the key of the org you chose at step #3
+    token:
+      secure: $SONAR_TOKEN
+script:
+  - sonar-scanner
