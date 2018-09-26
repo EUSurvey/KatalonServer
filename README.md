@@ -12,5 +12,8 @@ This is a small Spring Boot server which purpose is to run Katalon tests.
 1. Build the project, and deploy it on your servlet container.
 
 ## Usage
-1. Call http://<yourDeploymentIP>:<yourDeploymentPort>/<nameOfATestSuite>/status
-1. Call http://<yourDeploymentIP>:<yourDeploymentPort>/<nameOfATestSuite>/start
+1. Call http://{yourDeploymentIP}:{yourDeploymentPort}/katalon/status, to see if the server is up and running;
+1. Call http://{yourDeploymentIP}:{yourDeploymentPort}/katalon/start/{nameOfATestSuite}/{browserName}, to run a test suite, the server will answer with the test suite's JUnit report in XML. The browser name can be IE, Chrome, Edge, Firefox.
+1. Call http://{yourDeploymentIP}:{yourDeploymentPort}/katalon/stop, to stop the Katalon running process and all its children process.
+
+
