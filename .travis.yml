@@ -1,3 +1,6 @@
 language: java
 dist: trusty
 jdk: oraclejdk10
+
+before_install:
+  - chmod +x mvnw
