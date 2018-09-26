@@ -2,6 +2,7 @@
 This is a small Spring Boot server which purpose is to run Katalon tests.
 * Master branch build [![Build Status](https://travis-ci.com/EUSurvey/KatalonServer.svg?branch=master)](https://travis-ci.com/EUSurvey/KatalonServer)
 * [Latest Sonar Cloud analysis](https://sonarcloud.io/dashboard?id=Katalon_Server_Sonar) ![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Katalon_Server_Sonar&metric=bugs) ![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Katalon_Server_Sonar&metric=code_smells) ![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Katalon_Server_Sonar&metric=coverage)
+* Organization's [Waffle io](https://waffle.io/EUSurvey/EUSurvey) [![Waffle.io - Columns and their card count](https://badge.waffle.io/EUSurvey/EUSurvey.svg?columns=all)](https://waffle.io/EUSurvey/EUSurvey) 
 
 ## Installation requirements
 1. Katalon
