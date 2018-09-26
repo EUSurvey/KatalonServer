@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create Survey and Form Runner" time="14" tests="0" failures="4" errors="0">
+   <testsuite name="Create Survey and Form Runner" tests="0" failures="4" errors="0" time="14" timestamp="2018-07-16 14:54:35" hostname="ip" id="Test Suites/Create Survey and Form Runner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\katalon\\git\\katalon-test-suite4\\Reports\\Create Survey and Form Runner\\20180716_145428"/>
+         <property name="logFiles" value="D:\\katalon\\git\\katalon-test-suite4\\Reports\\Create Survey and Form Runner\\20180716_145428\\execution0.log"/>
+         <property name="attachments" value="D:\\katalon\\git\\katalon-test-suite4\\Reports\\Create Survey and Form Runner\\20180716_145428\\1531745682849.png, D:\\katalon\\git\\katalon-test-suite4\\Reports\\Create Survey and Form Runner\\20180716_145428\\1531745685817.png, D:\\katalon\\git\\katalon-test-suite4\\Reports\\Create Survey and Form Runner\\20180716_145428\\1531745688853.png"/>
+         <property name="hostName" value="ip"/>
+         <property name="os" value="Windows NT (unknown) 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="37cd107722c615b4bab447c5c1dcb713"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows NT (unknown)"/>
+      </properties>
+      <testcase name="Test Cases/Create Survey and Form Runner/checkWelcomePage" classname="Test Cases/Create Survey and Form Runner/checkWelcomePage" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)"/>
+         <system-out><![CDATA[2018-07-16 14:54:36 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/checkWelcomePage: Test Cases/Create Survey and Form Runner/checkWelcomePage FAILED because (of) Unable to open browser with url: 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:36 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:39 - [MESSAGE][FAILED] - Unable to open browser with url: 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:39 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 14:54:40 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-16 14:54:40 - [TEST_STEP][ERROR] - database.cleanDB.CLEAN: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:40 - [MESSAGE][ERROR] - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:40 - [MESSAGE][WARNING] - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)]]></system-out>
+         <system-err><![CDATA[2018-07-16 14:54:36 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/checkWelcomePage: Test Cases/Create Survey and Form Runner/checkWelcomePage FAILED because (of) Unable to open browser with url: 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Survey and Form Runner/login" classname="Test Cases/Create Survey and Form Runner/login" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)"/>
+         <system-out><![CDATA[2018-07-16 14:54:40 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/login: Test Cases/Create Survey and Form Runner/login FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 14:54:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 14:54:42 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:43 - [MESSAGE][FAILED] - Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+[[ATTACHMENT|D:\\katalon\\git\\katalon-test-suite4\\Reports\\Create Survey and Form Runner\\20180716_145428\\1531745682849.png]]
+
+2018-07-16 14:54:43 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 14:54:43 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-16 14:54:43 - [TEST_STEP][ERROR] - database.cleanDB.CLEAN: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:43 - [MESSAGE][ERROR] - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:43 - [MESSAGE][WARNING] - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)]]></system-out>
+         <system-err><![CDATA[2018-07-16 14:54:40 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/login: Test Cases/Create Survey and Form Runner/login FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Survey and Form Runner/createEmptySurvey" classname="Test Cases/Create Survey and Form Runner/createEmptySurvey" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)"/>
+         <system-out><![CDATA[2018-07-16 14:54:43 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/createEmptySurvey: Test Cases/Create Survey and Form Runner/createEmptySurvey FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:43 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/login' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/login' failed)
+
+2018-07-16 14:54:43 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/login: Test Cases/Create Survey and Form Runner/login FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 14:54:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 14:54:45 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:46 - [MESSAGE][FAILED] - Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+[[ATTACHMENT|D:\\katalon\\git\\katalon-test-suite4\\Reports\\Create Survey and Form Runner\\20180716_145428\\1531745685817.png]]
+
+2018-07-16 14:54:46 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/login' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/login' failed)
+
+2018-07-16 14:54:46 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 14:54:46 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-16 14:54:46 - [TEST_STEP][ERROR] - database.cleanDB.CLEAN: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:46 - [MESSAGE][ERROR] - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:46 - [MESSAGE][WARNING] - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)]]></system-out>
+         <system-err><![CDATA[2018-07-16 14:54:43 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/createEmptySurvey: Test Cases/Create Survey and Form Runner/createEmptySurvey FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Survey and Form Runner/editEmptySurvey" classname="Test Cases/Create Survey and Form Runner/editEmptySurvey" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)"/>
+         <system-out><![CDATA[2018-07-16 14:54:46 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/editEmptySurvey: Test Cases/Create Survey and Form Runner/editEmptySurvey FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:46 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/createEmptySurvey' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/createEmptySurvey' failed)
+
+2018-07-16 14:54:46 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/createEmptySurvey: Test Cases/Create Survey and Form Runner/createEmptySurvey FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:46 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/login' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/login' failed)
+
+2018-07-16 14:54:46 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/login: Test Cases/Create Survey and Form Runner/login FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 14:54:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 14:54:48 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+
+2018-07-16 14:54:49 - [MESSAGE][FAILED] - Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)
+[[ATTACHMENT|D:\\katalon\\git\\katalon-test-suite4\\Reports\\Create Survey and Form Runner\\20180716_145428\\1531745688853.png]]
+
+2018-07-16 14:54:49 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/login' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/login' failed)
+
+2018-07-16 14:54:49 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/createEmptySurvey' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/createEmptySurvey' failed)
+
+2018-07-16 14:54:49 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 14:54:49 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-16 14:54:49 - [TEST_STEP][ERROR] - database.cleanDB.CLEAN: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:49 - [MESSAGE][ERROR] - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+
+2018-07-16 14:54:49 - [MESSAGE][WARNING] - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)]]></system-out>
+         <system-err><![CDATA[2018-07-16 14:54:46 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/editEmptySurvey: Test Cases/Create Survey and Form Runner/editEmptySurvey FAILED because (of) Unable to navigate to 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-16 14:54:35 - [TEST_SUITE][FAILED] - Create Survey and Form Runner: Test Cases/Create Survey and Form Runner/checkWelcomePage FAILED because (of) Unable to open browser with url: 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)]]></system-out>
+      <system-err><![CDATA[2018-07-16 14:54:35 - [TEST_SUITE][FAILED] - Create Survey and Form Runner: Test Cases/Create Survey and Form Runner/checkWelcomePage FAILED because (of) Unable to open browser with url: 'localhost:8080' (Root cause: java.net.MalformedURLException: unknown protocol: localhost)]]></system-err>
+   </testsuite>
+</testsuites>

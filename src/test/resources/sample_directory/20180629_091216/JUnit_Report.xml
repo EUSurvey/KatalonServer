@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create Survey and Form Runner" time="145" tests="0" failures="4" errors="0">
+   <testsuite name="Create Survey and Form Runner" tests="0" failures="4" errors="0" time="145" timestamp="2018-06-29 09:12:27" hostname="ip" id="Test Suites/Create Survey and Form Runner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225"/>
+         <property name="logFiles" value="D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\execution0.log"/>
+         <property name="attachments" value="D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256383355.png, D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256383413.png, D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256419131.png, D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256454949.png, D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256490661.png"/>
+         <property name="hostName" value="ip"/>
+         <property name="os" value="Windows NT (unknown) 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="a4c83760-e396-4d3b-aa79-3d6ab2e64e3a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows NT (unknown)"/>
+      </properties>
+      <testcase name="Test Cases/Create Survey and Form Runner/checkWelcomePage" classname="Test Cases/Create Survey and Form Runner/checkWelcomePage" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' located by 'By.xpath: //img[@src = '/eusurvey/resources/images/logo_Eusurvey.png' and @alt = 'EUSurvey logo']' not found)"/>
+         <system-out><![CDATA[2018-06-29 09:12:28 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/checkWelcomePage: Test Cases/Create Survey and Form Runner/checkWelcomePage FAILED because (of) Unable to verify object 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' located by 'By.xpath: //img[@src = '/eusurvey/resources/images/logo_Eusurvey.png' and @alt = 'EUSurvey logo']' not found)
+
+2018-06-29 09:12:28 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2018-06-29 09:12:28 - [TEST_STEP][PASSED] - Statement - url = "localhost": null
+
+2018-06-29 09:12:28 - [TEST_STEP][PASSED] - Statement - port = 3306: null
+
+2018-06-29 09:12:28 - [TEST_STEP][PASSED] - Statement - dbname = "eusurveydb": null
+
+2018-06-29 09:12:28 - [TEST_STEP][PASSED] - Statement - conn = "jdbc:mysql://" + url + ":" + port + "/" + dbname: null
+
+2018-06-29 09:12:28 - [TEST_STEP][PASSED] - Statement - user = "eusurveyuser": null
+
+2018-06-29 09:12:28 - [TEST_STEP][PASSED] - Statement - password = "eusurveyuser": null
+
+2018-06-29 09:12:28 - [TEST_STEP][PASSED] - Statement - connection = java.sql.DriverManager.getConnection(conn, user, password): null
+
+2018-06-29 09:12:29 - [TEST_STEP][PASSED] - Statement - stmt = connection.createStatement(): null
+
+2018-06-29 09:12:29 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.suraccess;"): null
+
+2018-06-29 09:12:29 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.answers;"): null
+
+2018-06-29 09:12:29 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.answers_set;"): null
+
+2018-06-29 09:12:29 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.surveys_elements;"): null
+
+2018-06-29 09:12:29 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE from eusurveydb.surveys;"): null
+
+2018-06-29 09:12:29 - [TEST_STEP][PASSED] - Statement - connection.close(): null
+
+2018-06-29 09:12:29 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2018-06-29 09:12:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-29 09:12:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-29 09:12:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/eusurvey/' successfully
+
+2018-06-29 09:12:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/eusurvey/' successfully
+
+2018-06-29 09:12:32 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' located by 'By.xpath: //img[@src = '/eusurvey/resources/images/logo_Eusurvey.png' and @alt = 'EUSurvey logo']' not found)
+
+2018-06-29 09:12:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-29 09:13:03 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' located by 'By.xpath: //img[@src = '/eusurvey/resources/images/logo_Eusurvey.png' and @alt = 'EUSurvey logo']' not found
+[[ATTACHMENT|D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256383355.png]]
+
+2018-06-29 09:13:03 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' located by 'By.xpath: //img[@src = '/eusurvey/resources/images/logo_Eusurvey.png' and @alt = 'EUSurvey logo']' not found)
+[[ATTACHMENT|D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256383413.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-29 09:12:28 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/checkWelcomePage: Test Cases/Create Survey and Form Runner/checkWelcomePage FAILED because (of) Unable to verify object 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' located by 'By.xpath: //img[@src = '/eusurvey/resources/images/logo_Eusurvey.png' and @alt = 'EUSurvey logo']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Survey and Form Runner/login" classname="Test Cases/Create Survey and Form Runner/login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)"/>
+         <system-out><![CDATA[2018-06-29 09:13:05 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/login: Test Cases/Create Survey and Form Runner/login FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - url = "localhost": null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - port = 3306: null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - dbname = "eusurveydb": null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - conn = "jdbc:mysql://" + url + ":" + port + "/" + dbname: null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - user = "eusurveyuser": null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - password = "eusurveyuser": null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - connection = java.sql.DriverManager.getConnection(conn, user, password): null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - stmt = connection.createStatement(): null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.suraccess;"): null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.answers;"): null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.answers_set;"): null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.surveys_elements;"): null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE from eusurveydb.surveys;"): null
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - Statement - connection.close(): null
+
+2018-06-29 09:13:05 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2018-06-29 09:13:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-29 09:13:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-29 09:13:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-29 09:13:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/eusurvey/' successfully
+
+2018-06-29 09:13:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/eusurvey/' successfully
+
+2018-06-29 09:13:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:13:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+[[ATTACHMENT|D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256419131.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-29 09:13:05 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/login: Test Cases/Create Survey and Form Runner/login FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Survey and Form Runner/createEmptySurvey" classname="Test Cases/Create Survey and Form Runner/createEmptySurvey" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)"/>
+         <system-out><![CDATA[2018-06-29 09:13:41 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/createEmptySurvey: Test Cases/Create Survey and Form Runner/createEmptySurvey FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - url = "localhost": null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - port = 3306: null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - dbname = "eusurveydb": null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - conn = "jdbc:mysql://" + url + ":" + port + "/" + dbname: null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - user = "eusurveyuser": null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - password = "eusurveyuser": null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - connection = java.sql.DriverManager.getConnection(conn, user, password): null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - stmt = connection.createStatement(): null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.suraccess;"): null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.answers;"): null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.answers_set;"): null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.surveys_elements;"): null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE from eusurveydb.surveys;"): null
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - Statement - connection.close(): null
+
+2018-06-29 09:13:41 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2018-06-29 09:13:41 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/login' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/login' failed)
+
+2018-06-29 09:13:41 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/login: Test Cases/Create Survey and Form Runner/login FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:13:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-29 09:13:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-29 09:13:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-29 09:13:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/eusurvey/' successfully
+
+2018-06-29 09:13:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/eusurvey/' successfully
+
+2018-06-29 09:13:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:14:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+[[ATTACHMENT|D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256454949.png]]
+
+2018-06-29 09:14:15 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/login' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/login' failed)]]></system-out>
+         <system-err><![CDATA[2018-06-29 09:13:41 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/createEmptySurvey: Test Cases/Create Survey and Form Runner/createEmptySurvey FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create Survey and Form Runner/editEmptySurvey" classname="Test Cases/Create Survey and Form Runner/editEmptySurvey" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)"/>
+         <system-out><![CDATA[2018-06-29 09:14:17 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/editEmptySurvey: Test Cases/Create Survey and Form Runner/editEmptySurvey FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - url = "localhost": null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - port = 3306: null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - dbname = "eusurveydb": null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - conn = "jdbc:mysql://" + url + ":" + port + "/" + dbname: null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - user = "eusurveyuser": null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - password = "eusurveyuser": null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - connection = java.sql.DriverManager.getConnection(conn, user, password): null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - stmt = connection.createStatement(): null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.suraccess;"): null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.answers;"): null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.answers_set;"): null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE FROM eusurveydb.surveys_elements;"): null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - result = stmt.execute("DELETE from eusurveydb.surveys;"): null
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - Statement - connection.close(): null
+
+2018-06-29 09:14:17 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2018-06-29 09:14:17 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/createEmptySurvey' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/createEmptySurvey' failed)
+
+2018-06-29 09:14:17 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/createEmptySurvey: Test Cases/Create Survey and Form Runner/createEmptySurvey FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:14:17 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/login' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/login' failed)
+
+2018-06-29 09:14:17 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/login: Test Cases/Create Survey and Form Runner/login FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:14:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-29 09:14:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-29 09:14:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-29 09:14:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost:8080/eusurvey/' successfully
+
+2018-06-29 09:14:20 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/eusurvey/' successfully
+
+2018-06-29 09:14:20 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+
+2018-06-29 09:14:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)
+[[ATTACHMENT|D:\\katalon\\katalon-test-suite2\\Reports\\Create Survey and Form Runner\\20180629_091225\\1530256490661.png]]
+
+2018-06-29 09:14:50 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/login' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/login' failed)
+
+2018-06-29 09:14:50 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Create Survey and Form Runner/createEmptySurvey' (Root cause: Call Test Case 'Test Cases/Create Survey and Form Runner/createEmptySurvey' failed)]]></system-out>
+         <system-err><![CDATA[2018-06-29 09:14:17 - [TEST_CASE][FAILED] - Test Cases/Create Survey and Form Runner/editEmptySurvey: Test Cases/Create Survey and Form Runner/editEmptySurvey FAILED because (of) Unable to click on object 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/login/Page_EUSurvey - Welcome/a_Login' located by 'By.xpath: //a[@href = '/eusurvey/auth/login' and (text() = 'Login' or . = 'Login')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-29 09:12:27 - [TEST_SUITE][FAILED] - Create Survey and Form Runner: Test Cases/Create Survey and Form Runner/checkWelcomePage FAILED because (of) Unable to verify object 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' located by 'By.xpath: //img[@src = '/eusurvey/resources/images/logo_Eusurvey.png' and @alt = 'EUSurvey logo']' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-29 09:12:27 - [TEST_SUITE][FAILED] - Create Survey and Form Runner: Test Cases/Create Survey and Form Runner/checkWelcomePage FAILED because (of) Unable to verify object 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Survey and Form Runner/checkWelcomePage/Page_EUSurvey - Welcome/img' located by 'By.xpath: //img[@src = '/eusurvey/resources/images/logo_Eusurvey.png' and @alt = 'EUSurvey logo']' not found)]]></system-err>
+   </testsuite>
+</testsuites>
